@@ -3,7 +3,7 @@
 
 **PROJENİN AMACI:** IMDB benzeri bir ortamın ihtiyacı olan API.
 
-> Swagger'da token alabilmek için **admin** bilgileri;
+ Swagger'da token alabilmek için **admin** bilgileri;
 **K.Adı:** "Hakan" (Kullanıcı adında büyük, küçük harf duyarlılığı yok)
 **Şifre: **"Arvato123"
 
@@ -12,12 +12,12 @@
 
 ## Kullanılan Teknolojiler
 
-- ##### Net 6
-- #####Ef Core
-- #####Web Api
-- #####Postgresql
-- #####Swagger
-- #####Redis
+> -  Net 6
+- Ef Core
+- Web Api
+- Postgresql
+- Swagger
+- Redis
 
 ## Multitier architecture
 
@@ -40,8 +40,11 @@ Ve nihayetinde endpointlerimizin himayesi altında olduğu ve requestlere respon
 > Totalde User,Genre,Movie,Trendings olmak üzere 4 adet controller yazıldı.
 
 **Movies Controller(9)=>** *GetAllMovies,AddMovie,DeleteMovie,UpdateMovie,GetMovieDetail,GetMovieListByGenreId,GetMovieListByRateFilter,GetMovieListByRelaseDate,Search *
+
 **Genre Controller(5) =>** *GetAllGenre,GetGenreById,AddGenre,UpdateGenre,Delete*
+
 **Trendings Controller(2) =>***ListMostViewed10Movies , ListTopRated10Movies *
+
 **User Controller(1) =>** *Login*
 
 ## Authentication(JWT)
