@@ -21,7 +21,7 @@
 
 ## Multitier architecture
 
->  Proje 4 katmandan oluşturuldu.Bu katmanlar sırasıyla;Proje 4 katmandan oluşturuldu.Bu katmanlar sırasıyla;
+>  Proje 4 katmandan oluşturuldu.Bu katmanlar sırasıyla;
 
 **Movies.Entities:** Bu katmanda oluşturmak istediğim tabloların modellerini, bu tabloların configuration'larını,Dbcontext sınıfını yazdım.Daha sonra EF Core ile migration
 ekleyip bu migrationlar aracılığıyla database tarafını da güncelledim.
@@ -70,7 +70,7 @@ RedisServer'da tuttum.
 
 **Detay: **Movies.DataAccess/Concrete/MovieRepository.cs
 
-**---------------------------------------------------------------------------------------**
+
 
 
 
