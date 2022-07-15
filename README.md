@@ -14,14 +14,14 @@ Veritabanı bağlantı adresi MovieDbContext'e tanımlandı.Bağlantı adresini 
 
 ---------------------Kullanılan Teknolojiler-----------------------------------------
 
-●Net 6
-●Ef Core
-●Web Api
-●Postgresql
-●Swagger
-●Redis
+-Net 6
+-Ef Core
+-Web Api
+-Postgresql
+-Swagger
+-Redis
 
------------------------Multitier architecture----------------------------------------
+Multitier architecture
 
 Proje 4 katmandan oluşturuldu.Bu katmanlar sırasıyla;
 
