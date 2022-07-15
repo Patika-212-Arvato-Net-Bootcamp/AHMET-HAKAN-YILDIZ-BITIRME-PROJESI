@@ -41,10 +41,10 @@ Ve nihayetinde endpointlerimizin himayesi altında olduğu ve requestlere respon
 
 Totalde User,Genre,Movie,Trendings olmak üzere 4 adet controller yazıldı.
 
-Movies Controller(9) =>GetAllMovies,AddMovie,DeleteMovie,UpdateMovie,GetMovieDetail,GetMovieListByGenreId,GetMovieListByRateFilter,GetMovieListByRelaseDate,Search 
-Genre Controller(5) => GetAllGenre,GetGenreById,AddGenre,UpdateGenre,Delete
-Trendings Controller(2) =>ListMostViewed10Movies , ListTopRated10Movies 
-User Controller(1) =>Login
+Movies Controller(9) =>GetAllMovies,AddMovie,DeleteMovie,UpdateMovie,GetMovieDetail,GetMovieListByGenreId,GetMovieListByRateFilter,GetMovieListByRelaseDate,Search <br>
+Genre Controller(5) => GetAllGenre,GetGenreById,AddGenre,UpdateGenre,Delete<br>
+Trendings Controller(2) =>ListMostViewed10Movies , ListTopRated10Movies <br>
+User Controller(1) =>Login<br>
 
 ---------------------Authentication(JWT)-----------------------------------------
 
